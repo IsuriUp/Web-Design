@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(7, 7, 8);
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    color: crimson;
+}
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.menu .box-container .box{
+    padding: 5px;
+    text-align: center;
+    border:var(--border);
+}
+
+
+.menu .box-container .box img{
+    
+    width: 50%;
+}
+
+.menu .box-container .box h3{
+    color: rgb(212, 58, 179);
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+
+.menu .box-container .box .price{
+    font-size: 15px;
+    
+}
+
+.menu .box-container .box :hover{
+    background: #fff;
+
+}
+
+.price{
+    color:rgb(197, 59, 158);
+}
+
+.btn{
+    color: rgb(212, 58, 179);
+}
+
